@@ -1,0 +1,125 @@
+body {
+	background-color: blue;
+	font-family: "Arial";
+}
+
+header {
+	text-align: center;
+	font-size: 28px;
+	font-variant: small-caps;
+	color: white;
+}
+
+nav {
+	font-family: "Arial";
+	background-color: white;
+	text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav ul li a {
+	display: inline-block;
+	width:300px;
+}
+
+nav ul li a:link {
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	background-color: yellow;
+}
+
+img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	-webkit-transition:-webkit-transform .3s ease-in-out;
+	-moz-transition:-moz-transform .3s ease-in-out;
+	transition:transform .3s ease-in-out
+}
+
+img:hover {
+	-webkit-transform: rotate(-720deg) scale(1.5);
+	-moz-transform: rotate(-720deg) scale(1.5);
+	-o-transform: rotate(-720deg) scale(1.5);
+	transform: rotate(-720deg) scale(1.5);
+
+}
+
+canvas {
+	border: 1px solid #000000;
+	width: 100%;
+	height: 200px;
+	float: center;
+}
+
+div#container {
+	width: 100%;
+}
+
+div#me {
+	color: white;
+	float: left;
+	width:30%;
+}
+
+div#me a:link {
+	text-decoration: none;
+	color: white;
+}
+
+div#me a:hover {
+	color: yellow;
+}
+
+div#other {
+	float: left;
+	color: white;
+	width: 30%;
+	padding-left: 30px;
+	text-align: center;
+}
+
+div#other audio {
+	width: 100%;
+}
+
+div#other video {
+	width:100%;
+}
+
+div#img {
+	float: left;
+	padding: 25px;
+	width: 30%;
+}
+
+div#jquery {
+	color: white;
+	width:45%;
+	clear: both;
+}
+
+div#php {
+	float:left;
+	width:45%;
+}
+
+div#canv {
+	padding-top: 20px;
+	float: left;
+	color: white;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
