@@ -8,7 +8,6 @@
     <link type="text/css" href="css/ui-lightness/jquery-ui-1.8.23.custom.css" rel="stylesheet" />
     <script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
     <script type="text/javascript" src="js/jquery-ui-1.8.23.custom.min.js"></script>
-    <title>Dan Miller</title>
     <script>
     var rect1;
     var rect2;
@@ -202,7 +201,7 @@
         <h1>Cool HTML5 Media Stuff</h1>
         <audio src="farandole.mp3" controls="controls" autoplay="autoplay" loop="loop">Your browser sucks.</audio>
         <br>
-        <video src="gizmo.mp4" width="300" height="230" controls>
+        <video src="gizmo.mp4" width="300" height="230" controls>Your browser is not supported</video>
         </div> 	
         <div id="left">
           <div class="box">
